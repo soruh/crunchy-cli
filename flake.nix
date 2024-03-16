@@ -26,7 +26,7 @@
           };
 
           buildNoDefaultFeatures = true;
-          buildFeatures = [ "openssl" ];
+          buildFeatures = [ "rustls-tls" ];
 
           nativeBuildInputs = [
             pkgs.pkg-config
